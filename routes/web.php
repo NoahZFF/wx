@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('member/info', 'MemberController@info');
+Route::get('acc/info', 'AccController@info');
 

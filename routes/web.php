@@ -14,5 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
 Route::get('info', 'AccController@info');
 

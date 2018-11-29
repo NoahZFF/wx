@@ -14,7 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('hook' , 'AccController@hook');
 
 Route::get('info', 'AccController@info');
 
